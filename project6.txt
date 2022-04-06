@@ -1,0 +1,2 @@
+The analysis of clear() indicates that that the big o notation within the stack implementation is O(n). It utilizes the clear() function of the vector which calls the destructor to delete each item within the vector one by one. Thefore the function is as complex as the number of elements in a stack since a staack is just a vector. 
+The complexity of my in2post function is O(n^2) since it's a while loop and a for loop. The for loop executes n times, and on average the while loop executes n times as well, making it O(n^2). 
